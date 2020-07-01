@@ -1,0 +1,12 @@
+BM = 1
+
+
+def autoIncerment():
+ global BM
+ pStart = 5300001
+ pInterval = 1
+ if BM == 0:
+  BM = pStart
+ else:
+  BM = BM + pInterval
+ return BM
